@@ -42,42 +42,47 @@
 # lista1 = {'robervan', 'auriene', 'beatriz', 'alice'}
 # print('robervan' in lista1)# verifica se esta na lista
 # #######################33#########################################
-# dicionario
-aluno = {
-    'nome': 'Robervan',
-    'idade': 33,
-    'brasil': True,
-    'comida':['arroz','feijão', 'carne']
-}
-print(type(aluno), (aluno)) # tipo de dicionario dict
-print(len(aluno)) # quantos itens tem no dicionario
+# # dicionario
+# aluno = {
+#     'nome': 'Robervan',
+#     'idade': 33,
+#     'brasil': True,
+#     'comida':['arroz','feijão', 'carne']
+# }
+# print(type(aluno), (aluno))   # tipo de dicionario dict
+# print(len(aluno))   # quantos itens tem no dicionario
+#
+# del aluno['nome']   # deleta nome da lista
+# print(aluno['idade'])    # busca a idade na lista
+# aluno['nome'] = 'auriene'    # muda o nome do dicionario ou adiciona
+#
+# print(aluno.keys(), 'estou aqui')
+# teste = [{
+#     'nome': 'Roberqweqweqweqwevan',
+#     'idade': 33,
+#     'brasil': True,
+#     'comida':['arroz','feijão', 'carne']
+# }, {
+#     'nome': 'Robervadasdasdasdasdsan',
+#     'idade': 33,
+#     'brasil': True,
+#     'comida':['arroz','feijão', 'carne']
+# },{
+#     'nome': 'Robervan',
+#     'idade': 33,
+#     'brasil': True,
+#     'comida':['arroz','feijão', 'carne']
+# }]
+# print(teste[1]['brasil']) # buca na lista 1 o que esta no brasil
+# for aluno in teste:
+#     print('nome do aluno: ',aluno['nome'],'idade do aluno:', aluno['idade']) # lista somente quantos alunos e as idades
+###########################################################################################
+# Funções built in function(repetição de código)
 
-del aluno['nome'] # deleta nome da lista
-print(aluno['idade']) # busca a idade na lista
-aluno['nome'] = 'auriene' # muda o nome do dicionario ou adiciona
+seasons = ['Spring', 'Summer', 'Fall', 'Winter']
+x = enumerate(seasons)  # enumera a seção
 
-print(aluno.keys(), 'estou aqui')
-teste= [{
-    'nome': 'Roberqweqweqweqwevan',
-    'idade': 33,
-    'brasil': True,
-    'comida':['arroz','feijão', 'carne']
-}, {
-    'nome': 'Robervadasdasdasdasdsan',
-    'idade': 33,
-    'brasil': True,
-    'comida':['arroz','feijão', 'carne']
-},{
-    'nome': 'Robervan',
-    'idade': 33,
-    'brasil': True,
-    'comida':['arroz','feijão', 'carne']
-}]
-print(teste[1]['brasil']) # buca na lista 1 o que esta no brasil
-for aluno in teste:
-    print('nome do aluno: ',aluno['nome'],'idade do aluno:', aluno['idade']) # lista somente quantos alunos e as idades
-
-
+print(list(x))
 
 
 
