@@ -106,8 +106,8 @@ print('Bruno' in students)
 print('Luiza' in students)
 
 # No print imprima a lista students em ordem reversa (reverse).
-
-print(students.reverse())
+students.reverse()
+print(students)
 
 # Atribua à variável answer o valor da variável (option_a ou option_b)
 # que tiver a resposta correta da pergunta apresentada no print:
