@@ -1,15 +1,15 @@
 # # Controle de fluxo
 # def controle_de_idade(username, age, with_parents):
-#     if age < 18:
-#         msg = f"Desculpe {username}, mas você não pode assistir filmes"
-#         if with_parents == 'sim':
-#             msg = f" Você  {username} pode assistir"
-#         else:
-#             msg = f"Desculpe {username}, mas você não pode assistir filmes"
-#     else:
-#         msg = f"{username}, você pode assistir filmes"
-#     print(msg)
-#     return msg
+    # if age < 18:
+    #     msg = f"Desculpe {username}, mas você não pode assistir filmes"
+    #     if with_parents == 'sim':
+    #         msg = f" Você  {username} pode assistir"
+    #     else:
+    #         msg = f"Desculpe {username}, mas você não pode assistir filmes"
+    # else:
+    #     msg = f"{username}, você pode assistir filmes"
+    # print(msg)
+    # return msg
 # n1 = input('digite seu nome: ')
 # n2 = int(input('digite sua idade: '))
 # n3 = input('voce esta com seua pais, digite sim ou não: ')
